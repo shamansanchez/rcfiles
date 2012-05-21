@@ -5,6 +5,10 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+
+alias l='ls -la'
+
+
 export PS4='${BASH_SOURCE}::$LINENO + '
 
 export EDITOR=vim
