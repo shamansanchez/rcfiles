@@ -11,6 +11,9 @@ let g:ctrlp_root_markers = ['vpathlist']
 let g:ctrlp_clear_cache_on_exit = 0
 let g:ctrlp_show_hidden = 1
 
+nnoremap <Up> gk
+nnoremap <Down> gj
+
 set number
 
 syntax enable
