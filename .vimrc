@@ -13,6 +13,8 @@ let g:ctrlp_show_hidden = 1
 
 nnoremap <Up> gk
 nnoremap <Down> gj
+inoremap <Up> <C-O>gk
+inoremap <Down> <C-O>gj
 
 set number
 
