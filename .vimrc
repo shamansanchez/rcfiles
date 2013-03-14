@@ -5,6 +5,7 @@ set shiftwidth=4
 set autoindent
 set smartindent
 set expandtab
+set hlsearch
 set bs=2
 
 let g:ctrlp_root_markers = ['vpathlist']
