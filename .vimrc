@@ -11,6 +11,7 @@ set bs=2
 let g:ctrlp_root_markers = ['vpathlist']
 let g:ctrlp_clear_cache_on_exit = 0
 let g:ctrlp_show_hidden = 1
+let g:ctrlp_open_multiple_files = 'ri'
 
 set number
 
