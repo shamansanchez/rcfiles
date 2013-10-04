@@ -15,4 +15,4 @@
 	url = http://github.com/kien/ctrlp.vim.git
 [submodule ".vim/bundle/vim-indent-guides"]
 	path = .vim/bundle/vim-indent-guides
-	url = http://github.com/nathanaelkane/vim-indent-guides.git
+	url = git://github.com/nathanaelkane/vim-indent-guides.git
