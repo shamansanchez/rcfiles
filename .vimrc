@@ -13,6 +13,11 @@ let g:ctrlp_clear_cache_on_exit = 0
 let g:ctrlp_show_hidden = 1
 let g:ctrlp_open_multiple_files = 'ri'
 
+nnoremap <Up> gk
+nnoremap <Down> gj
+inoremap <Up> <C-O>gk
+inoremap <Down> <C-O>gj
+
 set number
 
 syntax enable
