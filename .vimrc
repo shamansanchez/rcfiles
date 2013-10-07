@@ -7,11 +7,19 @@ set smartindent
 set expandtab
 set hlsearch
 set bs=2
+set showcmd
 
 let g:ctrlp_root_markers = ['vpathlist']
 let g:ctrlp_clear_cache_on_exit = 0
 let g:ctrlp_show_hidden = 1
 let g:ctrlp_open_multiple_files = 'ri'
+
+let g:indent_guides_enable_on_vim_startup = 1
+let g:indent_guides_guide_size = 1
+let g:indent_guides_start_level = 2
+let g:indent_guides_auto_colors = 0
+autocmd VimEnter,Colorscheme * : hi IndentGuidesOdd  ctermbg=237
+autocmd VimEnter,Colorscheme * : hi IndentGuidesEven ctermbg=237
 
 nnoremap <Up> gk
 nnoremap <Down> gj
