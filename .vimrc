@@ -41,3 +41,6 @@ let Tlist_File_Fold_Auto_Close = 1
 colo wombat256mod
 
 set guifont=Bitstream\ Vera\ Sans\ Mono\ 10
+
+highlight ExtraWhitespace ctermbg=196 guibg=196
+match ExtraWhitespace /\s\+$/
