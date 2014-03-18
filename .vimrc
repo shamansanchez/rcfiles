@@ -8,6 +8,7 @@ set expandtab
 set hlsearch
 set bs=2
 set showcmd
+set cursorline
 
 let g:ctrlp_root_markers = ['vpathlist']
 let g:ctrlp_clear_cache_on_exit = 0
@@ -44,6 +45,7 @@ set guifont=Bitstream\ Vera\ Sans\ Mono\ 10
 
 highlight ExtraWhitespace ctermbg=196 guibg=196
 match ExtraWhitespace /\s\+$/
+
 
 if exists('+colorcolumn')
     set colorcolumn=80
