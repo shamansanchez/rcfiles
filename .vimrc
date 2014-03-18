@@ -44,3 +44,9 @@ set guifont=Bitstream\ Vera\ Sans\ Mono\ 10
 
 highlight ExtraWhitespace ctermbg=196 guibg=196
 match ExtraWhitespace /\s\+$/
+
+if exists('+colorcolumn')
+    set colorcolumn=80
+endif
+
+highlight ColorColumn ctermbg=235 guibg=235
