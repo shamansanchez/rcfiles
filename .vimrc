@@ -22,6 +22,14 @@ let g:indent_guides_auto_colors = 0
 autocmd VimEnter,Colorscheme * : hi IndentGuidesOdd  ctermbg=237
 autocmd VimEnter,Colorscheme * : hi IndentGuidesEven ctermbg=237
 
+if has("autocmd")
+    " When editing a file, always jump to the last cursor position
+    autocmd BufReadPost *
+    \ if line("'\"") > 0 && line ("'\"") <= line("$") |
+    \   exe "normal! g'\"" |
+    \ endif
+endif
+
 nnoremap <Up> gk
 nnoremap <Down> gj
 inoremap <Up> <C-O>gk
