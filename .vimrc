@@ -40,6 +40,7 @@ inoremap <Up> <C-O>gk
 inoremap <Down> <C-O>gj
 
 set number
+set mouse=a
 
 syntax enable
 
