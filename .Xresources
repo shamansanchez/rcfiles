@@ -8,10 +8,38 @@ URxvt*.depth: 32
 ! URxvt*geometry: geom
 
 ! Use the specified colour as the windows background colour [default
-URxvt*.background: rgba:0000/0000/0000/bbbb
+! URxvt*.background: rgba:0000/0000/0000/bbbb
 
 ! Use the specified colour as the windows foreground colour [default
-URxvt*.foreground: white
+! URxvt*.foreground: white
+
+! *background: #111314
+URxvt*background: rgba:1111/1133/1144/cccc
+URxvt*foreground: #B7BBB7
+! black
+URxvt*color0: #2C2F33
+URxvt*color8: #4B5056
+! red
+URxvt*color1: #B04C50
+URxvt*color9: #B04C50
+! green
+URxvt*color2: #919652
+URxvt*color10: #94985B
+! yellow
+URxvt*color3: #E2995C
+URxvt*color11: #E2995C
+! blue
+URxvt*color4: #66899D
+URxvt*color12: #66899D
+! magenta
+URxvt*color5: #8D6494
+URxvt*color13: #8D6494
+! cyan
+URxvt*color6: #527C77
+URxvt*color14: #527C77
+! white
+URxvt*color7: #606360
+URxvt*color15: #DDE3DC
 
 ! Use the specified colour for the colour value n, where 0-7 corresponds to
 ! URxvt*colorn: colour

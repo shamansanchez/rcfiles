@@ -52,7 +52,10 @@ set t_Co=256
 
 let Tlist_File_Fold_Auto_Close = 1
 
-colo wombat256mod
+let base16colorspace=256
+" colo wombat256mod
+colo spacegray
+hi Normal ctermbg=none
 
 set guifont=Bitstream\ Vera\ Sans\ Mono\ 10
 
