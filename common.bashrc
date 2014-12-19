@@ -11,6 +11,8 @@ alias l='ls -la'
 
 export PS4='${BASH_SOURCE}::$LINENO + '
 
+export GREP_COLORS='mt=38;5;227:fn=38;5;159:se=38;5;156'
+
 export EDITOR=vim
 
 function colorlist () 
