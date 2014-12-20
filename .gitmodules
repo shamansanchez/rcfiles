@@ -19,3 +19,9 @@
 [submodule ".vim/bundle/vdebug"]
 	path = .vim/bundle/vdebug
 	url = https://github.com/joonty/vdebug.git
+[submodule ".tmux/plugins/tpm"]
+	path = .tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm.git
+[submodule ".vim/bundle/Spacegray.vim"]
+	path = .vim/bundle/Spacegray.vim
+	url = https://github.com/ajh17/Spacegray.vim.git

@@ -21,7 +21,7 @@ let g:indent_guides_guide_size = 1
 let g:indent_guides_start_level = 2
 let g:indent_guides_auto_colors = 0
 
-let g:SuperTabDefaultCompletionType = "<C-x><C-o>"
+" let g:SuperTabDefaultCompletionType = "<C-x><C-o>"
 
 autocmd VimEnter,Colorscheme * : hi IndentGuidesOdd  ctermbg=237
 autocmd VimEnter,Colorscheme * : hi IndentGuidesEven ctermbg=237
@@ -40,6 +40,7 @@ inoremap <Up> <C-O>gk
 inoremap <Down> <C-O>gj
 
 set number
+set mouse=a
 
 syntax enable
 
@@ -51,7 +52,10 @@ set t_Co=256
 
 let Tlist_File_Fold_Auto_Close = 1
 
-colo wombat256mod
+let base16colorspace=256
+" colo wombat256mod
+colo spacegray
+hi Normal ctermbg=none
 
 set guifont=Bitstream\ Vera\ Sans\ Mono\ 10
 
