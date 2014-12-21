@@ -57,7 +57,7 @@ let base16colorspace=256
 colo spacegray
 hi Normal ctermbg=none
 
-set guifont=Bitstream\ Vera\ Sans\ Mono\ 10
+set guifont=Terminus\ 8
 
 highlight ExtraWhitespace ctermbg=196 guibg=196
 match ExtraWhitespace /\s\+$/
