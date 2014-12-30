@@ -1,0 +1,4 @@
+if [ ! -e ~/.ssh/agentsock ]
+    then eval $(ssh-agent -a ~/.ssh/agentsock)
+    else export SSH_AUTH_SOCK=~/.ssh/agentsock
+fi

@@ -15,11 +15,11 @@ export GREP_COLORS='mt=38;5;227:fn=38;5;159:se=38;5;156'
 
 export EDITOR=vim
 
-function colorlist () 
-{ 
+function colorlist ()
+{
     for c in $(seq 0 255)
-        do echo $(EXT_COLOR $c)$c 
-    done | column -c 50 
+        do echo $(EXT_COLOR $c)$c
+    done | column -c 50
 
     echo -ne "\033[0m"
 }
