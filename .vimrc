@@ -53,14 +53,11 @@ set t_Co=256
 let Tlist_File_Fold_Auto_Close = 1
 
 let g:jellybeans_overrides = {
-\ 'Normal': { 'ctermbg': '' },
-\ 'NonText': { 'ctermbg': '' },
+\ 'Normal': { '256ctermbg': 'NONE' },
+\ 'NonText': { '256ctermbg': 'NONE' },
 \ }
 
 colo jellybeans
-
-hi Normal ctermbg=NONE
-hi NonText ctermbg=NONE
 
 set guifont=Terminus\ 8
 
