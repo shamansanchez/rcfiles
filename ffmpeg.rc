@@ -1,0 +1,4 @@
+function mp3 {
+    f=$(echo $1 | cut -d. -f1)
+    ffmpeg -i "$1" -q:a 0 "$f.mp3"
+}

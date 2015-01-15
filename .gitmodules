@@ -25,3 +25,6 @@
 [submodule ".vim/bundle/Spacegray.vim"]
 	path = .vim/bundle/Spacegray.vim
 	url = https://github.com/ajh17/Spacegray.vim.git
+[submodule ".vim/bundle/jellybeans.vim"]
+	path = .vim/bundle/jellybeans.vim
+	url = https://github.com/nanotech/jellybeans.vim.git

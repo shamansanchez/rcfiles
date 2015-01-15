@@ -52,14 +52,19 @@ set t_Co=256
 
 let Tlist_File_Fold_Auto_Close = 1
 
-let base16colorspace=256
-" colo wombat256mod
-colo spacegray
-hi Normal ctermbg=none
+let g:jellybeans_overrides = {
+\ 'Normal': { 'ctermbg': '' },
+\ 'NonText': { 'ctermbg': '' },
+\ }
+
+colo jellybeans
+
+hi Normal ctermbg=NONE
+hi NonText ctermbg=NONE
 
 set guifont=Terminus\ 8
 
-highlight ExtraWhitespace ctermbg=196 guibg=196
+highlight ExtraWhitespace ctermbg=196 guibg='red'
 match ExtraWhitespace /\s\+$/
 
 if has("autocmd")
@@ -68,8 +73,10 @@ endif
 
 au FileChangedRO * se noreadonly
 
+au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null
+
 if exists('+colorcolumn')
     set colorcolumn=96
 endif
 
-highlight ColorColumn ctermbg=235 guibg=235
+highlight ColorColumn ctermbg=235 guibg='black'
