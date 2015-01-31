@@ -1,0 +1,16 @@
+#!/usr/bin/python
+
+import dbus
+import sys
+
+bus = dbus.SessionBus()
+player = bus.get_object("org.mpris.MediaPlayer2.spotify", "/org/mpris/MediaPlayer2")
+
+if sys.argv[1] == 't':
+    player.PlayPause()
+
+if sys.argv[1] == 'n':
+    player.Next()
+
+if sys.argv[1] == 'p':
+    player.Previous()
