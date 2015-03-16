@@ -96,6 +96,7 @@ URxvt*foreground: #FFFFFF
 ! URxvt*borderColor: colour
 
 ! Select the fonts to be used. This is a comma separated list of font names
+! URxvt*.font: xft:lemon:size=8:antialias=false
 URxvt*.font: xft:Terminus:size=8:antialias=false
 
 ! URxvt*boldFont: fontlist
