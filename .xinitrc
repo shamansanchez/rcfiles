@@ -21,7 +21,7 @@ xcompmgr &
 
 proxychains dropbox start &
 xscreensaver -no-splash &
-xbindkeys
+# xbindkeys
 
 start-pulseaudio-x11
 

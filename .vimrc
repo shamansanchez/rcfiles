@@ -50,6 +50,8 @@ ca w!! w !sudo tee "%"
 
 set t_Co=256
 
+set laststatus=2
+
 let Tlist_File_Fold_Auto_Close = 1
 
 let g:jellybeans_overrides = {
@@ -78,6 +80,8 @@ if exists('+colorcolumn')
 endif
 
 highlight ColorColumn ctermbg=235 guibg='black'
+
+au BufNewFile,BufRead *.raml setlocal ft=yaml
 
 " Transparent editing of gpg encrypted files.
 " By Wouter Hanegraaff

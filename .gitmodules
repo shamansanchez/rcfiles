@@ -31,3 +31,6 @@
 [submodule "fonts/fonts"]
 	path = fonts/fonts
 	url = https://github.com/phallus/fonts.git
+[submodule ".vim/bundle/jedi-vim"]
+	path = .vim/bundle/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim
