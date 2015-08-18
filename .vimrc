@@ -21,6 +21,23 @@ let g:indent_guides_guide_size = 1
 let g:indent_guides_start_level = 2
 let g:indent_guides_auto_colors = 0
 
+let g:vdebug_options= {
+    \    "port" : 9000,
+    \    "server" : 'localhost',
+    \    "timeout" : 20,
+    \    "on_close" : 'detach',
+    \    "break_on_open" : 1,
+    \    "ide_key" : '',
+    \    "path_maps" : {},
+    \    "debug_window_level" : 0,
+    \    "debug_file_level" : 0,
+    \    "debug_file" : "",
+    \    "watch_window_style" : 'expanded',
+    \    "marker_default" : '*',
+    \    "marker_closed_tree" : '+',
+    \    "marker_open_tree" : '-'
+    \}
+
 " let g:SuperTabDefaultCompletionType = "<C-x><C-o>"
 
 autocmd VimEnter,Colorscheme * : hi IndentGuidesOdd  ctermbg=237
