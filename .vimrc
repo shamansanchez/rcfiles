@@ -51,10 +51,24 @@ if has("autocmd")
     \ endif
 endif
 
-nnoremap <Up> gk
-nnoremap <Down> gj
-inoremap <Up> <C-O>gk
-inoremap <Down> <C-O>gj
+" nnoremap <Up> gk
+" nnoremap <Down> gj
+" inoremap <Up> <C-O>gk
+" inoremap <Down> <C-O>gj
+
+" disable arrow keys
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+imap <up> <nop>
+imap <down> <nop>
+imap <left> <nop>
+imap <right> <nop>
+
+nmap <space> zz
+nmap n nzz
+nmap N Nzz
 
 set number
 set mouse=a
