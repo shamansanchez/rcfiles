@@ -19,9 +19,14 @@ fi
 xrandr --output DVI-0 --left-of DVI-1
 xcompmgr &
 
-proxychains dropbox start &
+~/dropbox start &
 xscreensaver -no-splash &
 # xbindkeys
+
+systemctl start --user feh
+# systemctl start --user updatecount
+
+ibus-daemon &
 
 start-pulseaudio-x11
 
