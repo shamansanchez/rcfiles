@@ -17,10 +17,11 @@ fi
 # ...or the Window Manager of your choice
 
 xrandr --output DVI-0 --left-of DVI-1
-xcompmgr &
+compton --config ~/rcfiles/compton.conf &
 
 ~/dropbox start &
 xscreensaver -no-splash &
+udiskie -2 -s -n &
 # xbindkeys
 
 systemctl start --user feh

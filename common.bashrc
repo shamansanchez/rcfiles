@@ -47,3 +47,9 @@ function buildPS1 ()
     echo "$pcolor[$usercolor\u $wdcolor\w$pcolor]\n$hostcolor\h$(EXT_PS1_COLOR 15) \$ ";
 }
 export -f buildPS1
+
+function settermtitle
+{
+    echo -ne "]2;$*";
+}
+export -f settermtitle
