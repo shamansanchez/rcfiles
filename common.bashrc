@@ -61,7 +61,7 @@ function colorfortune
 
     EXT_COLOR $COLOR1
     EXT_BG_COLOR $COLOR2
-    fortune
+    fortune $@
     echo -ne "\033[0m"
 }
 export -f colorfortune
