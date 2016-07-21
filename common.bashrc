@@ -53,3 +53,15 @@ function settermtitle
     echo -ne "]2;$*";
 }
 export -f settermtitle
+
+function colorfortune
+{
+    COLOR1=$(( $RANDOM % 255 +1 ))
+    COLOR2=$(( $RANDOM % 255 +1 ))
+
+    EXT_COLOR $COLOR1
+    EXT_BG_COLOR $COLOR2
+    fortune
+    echo -ne "\033[0m"
+}
+export -f colorfortune
