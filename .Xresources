@@ -29,8 +29,8 @@ URxvt*foreground: #FFFFFF
 /* URxvt*color3: #E2995C */
 /* URxvt*color11: #E2995C */
 /* ! blue */
-/* URxvt*color4: #66899D */
-/* URxvt*color12: #66899D */
+URxvt*color4: #5577DD
+URxvt*color12: #6688FF
 /* ! magenta */
 /* URxvt*color5: #8D6494 */
 /* URxvt*color13: #8D6494 */
@@ -44,7 +44,7 @@ URxvt*foreground: #FFFFFF
 ! Use the specified colour for the colour value n, where 0-7 corresponds to
 ! URxvt*colorn: colour
 
-! 
+!
 ! URxvt*colorBD: colour
 
 ! Use the specified colour to display bold or italic characters when the
@@ -97,11 +97,11 @@ URxvt*foreground: #FFFFFF
 
 ! Select the fonts to be used. This is a comma separated list of font names
 ! URxvt*.font: xft:lemon:size=8:antialias=false
-URxvt*.font: xft:Terminus:size=8:antialias=false
+URxvt*.font: -*-terminus-*-*-12-*
 
 ! URxvt*boldFont: fontlist
 
-! 
+!
 ! URxvt*italicFont: fontlist
 
 ! The font list to use for displaying bold, italic or bold italic
@@ -218,7 +218,7 @@ URxvt*termName: rxvt-256color
 ! The characters used as delimiters for double-click word selection
 ! URxvt*cutchars: string
 
-! 
+!
 ! URxvt*{|}
 
 ! OverTheSpot, OffTheSpot, Root; option -pt.

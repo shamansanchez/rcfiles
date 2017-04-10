@@ -27,6 +27,8 @@ udiskie -2 -s -n &
 systemctl start --user feh
 # systemctl start --user updatecount
 
+redshift-gtk -l 35.861824:-78.835477 -t 5500:2500 &
+
 ibus-daemon &
 
 start-pulseaudio-x11

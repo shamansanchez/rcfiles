@@ -94,7 +94,7 @@ let g:jellybeans_overrides = {
 
 colo jellybeans
 
-set guifont=Terminus\ 8
+set guifont=Terminus\ TTF\ 8
 " set guifont=lemon\ 8
 
 highlight ExtraWhitespace ctermbg=196 guibg='red'
