@@ -10,7 +10,7 @@ set bs=2
 set showcmd
 set cursorline
 
-set diffopt+=context:999999
+set diffopt=context:999999
 
 let g:ctrlp_root_markers = ['vpathlist']
 let g:ctrlp_clear_cache_on_exit = 0
@@ -92,7 +92,10 @@ let g:jellybeans_overrides = {
 \ 'NonText': { '256ctermbg': 'NONE' },
 \ }
 
-colo jellybeans
+set termguicolors
+let ayucolor="dark"
+colo ayu
+hi Normal ctermbg=NONE guibg=NONE
 
 set guifont=Terminus\ TTF\ 8
 " set guifont=lemon\ 8
